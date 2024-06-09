@@ -3,7 +3,6 @@ let computerScore = 0;
 const choiceBtns = document.querySelectorAll(".choice-btn");
 const gameResult = document.querySelector("#game-result");
 const currentScore = document.querySelector("#current-score");
-const finalResult = document.querySelector("#final-result");
 
 function getComputerChoice() {
     let computerChoice;
